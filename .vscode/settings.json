@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "collections.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "limits": "c",
+        "parser.h": "c",
+        "string.h": "c"
+    }
+}

@@ -1,0 +1,10 @@
+^C:\USERS\FAJAR YASODANA\DESKTOP\ITS\SEMESTER 1\DASAR PEMROGRAMAN\FINAL PROJECT\BUILD\CMAKEFILES\6053E2FC9EFD5B7A54EFC5C8904F315D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Fajar Yasodana/Desktop/ITS/Semester 1/Dasar Pemrograman/Final Project" "-BC:/Users/Fajar Yasodana/Desktop/ITS/Semester 1/Dasar Pemrograman/Final Project/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Fajar Yasodana/Desktop/ITS/Semester 1/Dasar Pemrograman/Final Project/build/SQITS.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

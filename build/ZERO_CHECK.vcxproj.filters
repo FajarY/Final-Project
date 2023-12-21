@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Fajar Yasodana\Desktop\ITS\Semester 1\Dasar Pemrograman\Final Project\build\CMakeFiles\6053e2fc9efd5b7a54efc5c8904f315d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Fajar Yasodana\Desktop\ITS\Semester 1\Dasar Pemrograman\Final Project\library\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\library</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B23088F3-05CD-395C-8757-02F33BE8CE84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\library">
+      <UniqueIdentifier>{286AE1C3-7028-385D-B66B-B37B0AADF4B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

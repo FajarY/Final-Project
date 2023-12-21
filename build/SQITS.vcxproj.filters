@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Fajar Yasodana\Desktop\ITS\Semester 1\Dasar Pemrograman\Final Project\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Fajar Yasodana\Desktop\ITS\Semester 1\Dasar Pemrograman\Final Project\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{13C154E7-02C4-33EC-BD12-C7C0342546C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

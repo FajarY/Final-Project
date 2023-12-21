@@ -1,0 +1,102 @@
+CREATE Dosen
+	INT Id PRIMARY
+	VARCHAR 128 Nama
+	CHAR Gender
+	VARCHAR 6 Periode_Masuk
+	END
+
+CREATE Mahasiswa
+	INT Id PRIMARY
+	VARCHAR 128 Nama
+	CHAR Gender
+	VARCHAR 6 Periode_Masuk
+	INT Dosen_Wali_Id FOREIGN Dosen Id
+	END
+
+CREATE Mata_Kuliah
+	INT Id PRIMARY
+	VARCHAR 128 Nama
+	VARCHAR 255 Deskripsi
+	INT SKS
+	END
+
+CREATE Kelas_Mata_Kuliah
+	INT Id PRIMARY
+	VARCHAR 6 Periode
+	CHAR Kelas
+	VARCHAR 5 Ruangan
+	INT Mata_Kuliah_Id FOREIGN Mata_Kuliah Id
+	END
+
+CREATE Dosen_Kelas_Mata_Kuliah
+	INT Dosen_Id PRIMARY/FOREIGN Dosen Id
+	INT Kelas_Mata_Kuliah_Id PRIMARY/FOREIGN Kelas_Mata_Kuliah Id
+	END
+
+CREATE Mahasiswa_Kelas_Mata_Kuliah
+	INT Mahasiswa_Id PRIMARY/FOREIGN Mahasiswa Id
+	INT Kelas_Mata_Kuliah_Id PRIMARY/FOREIGN Kelas_Mata_Kuliah Id
+	FLOAT Nilai
+	END
+
+INSERT Dosen
+	VALUES 0 "Dwi Sunaryono" M 2015/1
+	VALUES 1 "Kelly Rossa" F 2018/1
+	VALUES 2 "Bilqis Amaliah" F 2017/1
+	VALUES 3 "Radityo Anggoro" M 2015/1
+	VALUES 4 "Dieky Adzkiya" M 2015/1
+	END
+
+INSERT Mahasiswa
+	VALUES 0 "Arya Deva" M 2023/1 0
+	VALUES 1 "Dewa Putu" M 2023/1 1
+	VALUES 2 "Putu Ardanatha" M 2023/1 1
+	VALUES 3 "Kadek Fajar Pramartha Yasodana" M 2023/1 4
+	VALUES 4 "Agym Kamil" M 2023/1 1
+	VALUES 5 "Amtsal" M 2023/1 2
+	VALUES 6 "Mirza Fathir" M 2023/1 3
+	VALUES 7 "Randi Palguna" M 2022/1 2
+	VALUES 8 "Fernando" M 2020/1 1
+	VALUES 9 "Agrapana Esa" M 2021/1 1
+	END
+
+INSERT Mata_Kuliah
+	VALUES 0 "Dasar Pemrograman" "Belajar mengenai bahasa pemrograman C" 4
+	VALUES 1 "Kalkulus" "Belajar derivative dan integral" 3
+	END
+
+INSERT Kelas_Mata_Kuliah
+	VALUES 0 2023/1 A IF101 0
+	VALUES 1 2023/1 A IF102 1
+	END
+
+INSERT Dosen_Kelas_Mata_Kuliah
+	VALUES 0 0
+	VALUES 1 0
+	VALUES 2 0
+	VALUES 3 1
+	VALUES 4 1
+	END
+
+INSERT Mahasiswa_Kelas_Mata_Kuliah
+	VALUES 0 0 70.1
+	VALUES 1 0 34.4
+	VALUES 2 0 99.9
+	VALUES 3 0 23.4
+	VALUES 4 0 10.5
+	VALUES 5 0 0
+	VALUES 6 0 5.7778
+	VALUES 7 0 45.65
+	VALUES 8 0 89.98
+	VALUES 9 0 56.67
+	VALUES 0 1 34.9
+	VALUES 1 1 4.5
+	VALUES 2 1 34.6
+	VALUES 3 1 12.53
+	VALUES 4 1 67.89
+	VALUES 5 1 56.34
+	VALUES 6 1 34.5
+	VALUES 7 1 99.86
+	VALUES 8 1 100
+	VALUES 9 1 1.466
+	END

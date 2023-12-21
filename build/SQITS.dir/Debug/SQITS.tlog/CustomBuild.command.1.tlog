@@ -1,0 +1,10 @@
+^C:\USERS\FAJAR YASODANA\DESKTOP\ITS\SEMESTER 1\DASAR PEMROGRAMAN\FINAL PROJECT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Fajar Yasodana/Desktop/ITS/Semester 1/Dasar Pemrograman/Final Project" "-BC:/Users/Fajar Yasodana/Desktop/ITS/Semester 1/Dasar Pemrograman/Final Project/build" --check-stamp-file "C:/Users/Fajar Yasodana/Desktop/ITS/Semester 1/Dasar Pemrograman/Final Project/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

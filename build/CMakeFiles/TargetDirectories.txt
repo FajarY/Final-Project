@@ -1,0 +1,4 @@
+C:/Users/Fajar Yasodana/Desktop/ITS/Semester 1/Dasar Pemrograman/Final Project/build/CMakeFiles/SQITS.dir
+C:/Users/Fajar Yasodana/Desktop/ITS/Semester 1/Dasar Pemrograman/Final Project/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Fajar Yasodana/Desktop/ITS/Semester 1/Dasar Pemrograman/Final Project/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Fajar Yasodana/Desktop/ITS/Semester 1/Dasar Pemrograman/Final Project/build/library/CMakeFiles/UTILITY.dir
