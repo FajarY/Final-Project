@@ -100,3 +100,28 @@ INSERT Mahasiswa_Kelas_Mata_Kuliah
 	VALUES 8 1 100
 	VALUES 9 1 1.466
 	END
+
+DISPLAY ALL FROM Mahasiswa
+	END
+
+DISPLAY ALL FROM Dosen
+	WHERE Id >= 1
+	WHERE Gender = F
+	END
+
+DELETE FROM Mahasiswa_Kelas_Mata_Kuliah
+	WHERE Mahasiswa_Id = 7
+	END
+
+DELETE FROM Mahasiswa_Kelas_Mata_Kuliah AT 2
+
+DELETE FROM Mahasiswa_Kelas_Mata_Kuliah AT ALL
+
+UPDATE Mahasiswa
+	SET Nama "Update Nama"
+	SET Gender F
+	WHERE Id >= 7
+	WHERE Dosen_Wali_Id = 0
+	END
+
+PEEK
